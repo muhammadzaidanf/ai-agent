@@ -42,20 +42,21 @@ The goal is to create a lightweight chatbot capable of understanding simple text
 
 ### 🏗️ Folder Structure (Planned)
 
+```text
 ai-agent/
 │
-├── src/ # main program code
-│ ├── main.py # entry point for chatbot logic
-│ ├── intents.json # dataset of example questions & responses
-│ ├── model/ # (optional) for ML or NLP models
-│ └── utils.py # helper functions
+├── src/                     # main program code
+│   ├── main.py              # entry point for chatbot logic
+│   ├── intents.json         # dataset of example questions & responses
+│   ├── model/               # (optional) for ML or NLP models
+│   └── utils.py             # helper functions
 │
-├── docs/ # documentation & planning notes
-│ └── architecture.md
+├── docs/                    # documentation & planning notes
+│   └── architecture.md      # system design and workflow notes
 │
-├── tests/ # for testing chatbot responses
+├── tests/                   # testing chatbot responses
 │
-└── README.md # project overview (this file)
+└── README.md                # project overview (this file)
 
 
 ---
