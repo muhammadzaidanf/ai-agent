@@ -87,3 +87,22 @@ cd ai-agent
 
 # Run main script
 python src/main.py
+
+---
+
+🧭 Vision
+
+“This AI Agent project is the foundation — not for building a bot that talks,
+but for understanding how machines think.”
+
+🧑‍💻 Author
+
+Muhammad Zaidan Faiz
+💼 LinkedIn
+
+📧 muhammadzaidanfaiz8@gmail.com
+
+⭐ “Don’t just learn AI — build something that learns with you.”
+
+
+---
