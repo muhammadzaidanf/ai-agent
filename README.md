@@ -41,3 +41,49 @@ The goal is to create a lightweight chatbot capable of understanding simple text
 ---
 
 ### 🏗️ Folder Structure (Planned)
+
+ai-agent/
+│
+├── src/ # main program code
+│ ├── main.py # entry point for chatbot logic
+│ ├── intents.json # dataset of example questions & responses
+│ ├── model/ # (optional) for ML or NLP models
+│ └── utils.py # helper functions
+│
+├── docs/ # documentation & planning notes
+│ └── architecture.md
+│
+├── tests/ # for testing chatbot responses
+│
+└── README.md # project overview (this file)
+
+
+---
+
+### 🧩 How It Works (Concept)
+1. User enters a text input  
+2. The system cleans & tokenizes the text  
+3. It matches the input against predefined intents  
+4. The bot replies with the most relevant response  
+5. (Future) The system learns from feedback and updates its patterns
+
+---
+
+### 📅 Development Roadmap
+| Phase | Description | Status |
+|--------|--------------|--------|
+| Research | Study NLP basics, text processing | ✅ Done |
+| Prototype | Create basic chatbot using Python | 🧩 In Progress |
+| Web UI | Integrate Flask frontend | ⏳ Planned |
+| Deploy | Host demo on GitHub Pages / Render | ⏳ Planned |
+
+---
+
+### 🚀 How to Run (later)
+```bash
+# Clone the repo
+git clone https://github.com/muhammadzaidanf/ai-agent.git
+cd ai-agent
+
+# Run main script
+python src/main.py
